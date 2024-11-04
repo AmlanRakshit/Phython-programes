@@ -1,0 +1,10 @@
+#Assignment 1
+print ("Python is fun")
+print (''' "Quotes" and 'single quotes' can be tricky ''')
+
+#Assignment 2
+n = name = "modhu"
+a = age = 24
+c = city = "fedagram"
+print (a ,'years old', n ,'lives at', c)
+print (f"my name is {n} from {c} at {a}")
