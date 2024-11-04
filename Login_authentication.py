@@ -4,18 +4,18 @@
 # # password = 00000
 
 
-# # user_name = input ("Enter your name:  ")
+user_name = input ("Enter your name:  ")
 
-# # password = input ("Enter your password:  ")
+password = input ("Enter your password:  ")
 
-# # if user_name == "Amlan":
-# #     if password == "125":
-# #         print("Opening File")
-# #     else:
-# #         print ("incorrect password" )
-# # else:
+if user_name == "Amlan":
+    if password == "125":
+        print("Opening File")
+    else:
+        print ("incorrect password" )
+else:
 
-# #     print ("Invalid credential")
+    print ("Invalid credential")
 
 
 # #Admission eligibility
@@ -28,13 +28,13 @@
 # # or 
 # # m + p >= 140
 
-# # input is all three subjects
+# input is all three subjects
 
-# math_score = int (input ("Enter math score:  "))
-# physics_score = int (input ("Enter physics score:  "))
-# chemistry_score = int (input ("Enter chemistry score:  "))
+math_score = int (input ("Enter math score:  "))
+physics_score = int (input ("Enter physics score:  "))
+chemistry_score = int (input ("Enter chemistry score:  "))
 
-# total = (math_score + physics_score + chemistry_score)
+total = (math_score + physics_score + chemistry_score)
 
 
 # if (math_score >= 65 and physics_score >=55 and chemistry_score >= 50 and total >=180) or math_score + physics_score >= 140:
